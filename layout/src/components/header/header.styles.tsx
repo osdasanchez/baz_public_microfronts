@@ -62,6 +62,51 @@ export const BoxContent = styled.div`
   }
 `;
 
+export const LogContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 56px;
+  width: 264px;
+  height: 40px;
+  margin-top: 14px;
+`
+
+export const Texto = styled.span`
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #222E41;
+`
+
+export const Ingresar = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 13px;
+  gap: 8px;
+  width: 131px;
+  height: 40px;
+  background: #01AD35;
+  border-radius: 24px;
+`
+
+export const IngresarText = styled.span`
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+`
+
+
 export const ReferencePositionFilterNews = styled.div`
   position: relative;
 `;
@@ -74,11 +119,11 @@ export const IconFilterNews = styled.div`
 `;
 
 export const inactiveFilter = {
-    pointerEvents: "none",
+  pointerEvents: "none",
 };
 
 export const activeFilter = {
-    pointerEvents: "all",
+  pointerEvents: "all",
 };
 
 export const ContainerSearchMovies = styled.div`

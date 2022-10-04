@@ -7,6 +7,8 @@ import AppleIcon from '../../../assets/images/group-2-copy-2.svg'
 
 
 const Texto = () => {
+  const data = ["Compra", "Paga servicios", "Envía dinero", "Renta películas", "TV en vivo", "Escucha música",]
+
   return (
     <Container>
       <Titulo>Compra</Titulo>

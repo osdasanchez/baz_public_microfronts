@@ -14,38 +14,34 @@ import {
 import BazLogo from "../../assets/images/logo-desktop.svg";
 import Social from "./social/social.component";
 import Contact from "./contact/contact.component";
-//import Links from "./policy/policy.component";
 import Copy from "./copy/copy.component";
 import Stores from "./stores/stores.component";
-
+import Policy from './policy/Policy';
 
 const Footer = () => {
 
     return (
-
-
         <FooterContainer id="footer-main">
             <FooterWrapper>
                 <BoxContent>
                     <BoxLogo>
                         <LogoContainer>
-                            <BazLogo className='logo'/>
+                            <BazLogo className='logo' />
                         </LogoContainer>
                     </BoxLogo>
                     <BoxSocial>
-                        <Social/>
-                        <Contact/>
+                        <Social />
+                        <Contact />
                     </BoxSocial>
-                {/*    <BoxPolicy>
-
-                    </BoxPolicy>*/}
+                    <BoxPolicy>
+                        <Policy />
+                    </BoxPolicy>
                     <BoxStores>
-                        <Stores/>
+                        <Stores />
                     </BoxStores>
                 </BoxContent>
-                <Line/>
-                <Copy/>
-
+                <Line />
+                <Copy />
             </FooterWrapper>
         </FooterContainer>
     );

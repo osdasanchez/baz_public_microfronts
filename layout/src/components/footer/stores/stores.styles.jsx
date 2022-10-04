@@ -9,19 +9,15 @@ export const StoresContainer = styled.div`
     //justify-content: flex-end;
   }
 
-  
-
   .qr-container {
-    background-image: url('../../../assets/images/qr-superapp-2-2-x.png') ;
-    min-width: 122px;
     display: flex ;
     justify-content: flex-start;
     align-items: center;
+    width: 122px;
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
       display: none;
     }
-    
   }
 
   .qr-container > img {

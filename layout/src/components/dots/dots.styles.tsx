@@ -8,9 +8,9 @@ export const Container = styled.div`
     align-content: center;
     width: 16px;
     height: 112px;
-    left: 1168px;
-    margin-top: 210px;
-    gap: 4px;
+    margin-left: 1400px;
+    margin-bottom: 60px;
+    position: absolute;
 `
 
 export const Dot = styled.span`
