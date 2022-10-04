@@ -1,24 +1,25 @@
 import * as React from "react";
-import {createRoot} from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 
 const container = document.getElementById('app');
 const root = createRoot(container!); // createRoot(container!) if you use TypeScript
 
 import "./index.css";
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
-import Button from "./components/button/Button";
+import Footer from './components/footer/Footer';
+import Home from "./components/home/Home";
+import Dots from "./components/dots/Dots";
+
+
 
 const App = () => (
     <>
-        <Header/>
+        <Header />
         <div className="container">
-            <div>Name: layout micro front</div>
-            <div>Framework: react</div>
-            <div>Language: TypeScript</div>
-            <Button>Click me</Button>
+            <Home />
+            <Dots />
         </div>
-        <Footer/>
+        <Footer />
     </>
 );
-root.render(<App/>);
+root.render(<App />);
