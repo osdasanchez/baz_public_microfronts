@@ -21,9 +21,9 @@ const App = () => (
             <div className="contenedor">
                 {/* <Home /> */}
                 {/* <Video /> */}
-                {/* <Money /> */}
+                <Money />
                 {/* <Shop /> */}
-                <Beneficios />
+                {/* <Beneficios /> */}
             </div>
             <Dots />
         </div>
