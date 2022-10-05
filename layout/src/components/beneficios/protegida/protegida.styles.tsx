@@ -7,6 +7,7 @@ export const Container = styled.div`
     align-items: center;
     width: 275px;
     height: 250px;
+    margin-right: 150px;
 `
 
 export const ImgContainer = styled.div`

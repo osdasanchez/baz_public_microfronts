@@ -8,6 +8,7 @@ export const Container = styled.div`
     align-items: center;
     width: 275px;
     height: 250px;
+    margin-left: 100px;
 
     .globe{
         margin-left: -30px;
