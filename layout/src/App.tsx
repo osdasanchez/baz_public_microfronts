@@ -14,6 +14,7 @@ import Money from "./components/money/Money";
 import Shop from "./components/shop/Shop";
 import Beneficios from "./components/beneficios/Beneficios";
 import Faq from "./components/faq/Faq";
+import TyC from "./components/tyc/TyC";
 
 const App = () => (
     <>
@@ -25,7 +26,8 @@ const App = () => (
                 {/* <Money /> */}
                 {/* <Shop /> */}
                 {/* <Beneficios /> */}
-                <Faq />
+                {/* <Faq /> */}
+                <TyC />
             </div>
             <Dots />
         </div>
