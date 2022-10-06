@@ -13,6 +13,7 @@ import Video from "./components/videoSec/Video";
 import Money from "./components/money/Money";
 import Shop from "./components/shop/Shop";
 import Beneficios from "./components/beneficios/Beneficios";
+import Faq from "./components/faq/Faq";
 
 const App = () => (
     <>
@@ -23,7 +24,8 @@ const App = () => (
                 {/* <Video /> */}
                 {/* <Money /> */}
                 {/* <Shop /> */}
-                <Beneficios />
+                {/* <Beneficios /> */}
+                <Faq />
             </div>
             <Dots />
         </div>

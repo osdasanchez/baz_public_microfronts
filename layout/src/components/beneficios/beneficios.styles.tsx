@@ -21,6 +21,7 @@ export const TituloVerde = styled.span`
     line-height: 54px;
     text-align: center;
     color: #01AD35;
+    margin-bottom: 50px;
 
     .negrita{
         font-weight: bold;
