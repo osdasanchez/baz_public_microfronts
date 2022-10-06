@@ -3,12 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    width: 800px;
-    height: 567px;
+    width: 712px;
+    height: 750px;
     overflow-y: hidden;
-    position: absolute;
 `
 
 export const Titulo = styled.span`

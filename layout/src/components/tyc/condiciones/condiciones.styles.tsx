@@ -8,6 +8,7 @@ export const Container = styled.div`
     width: 720px;
     padding: 5px;
     overflow-y: scroll;
+    margin-bottom: 30px;
 
     ::-webkit-scrollbar {
         display: none;

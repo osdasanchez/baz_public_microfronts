@@ -1,7 +1,6 @@
 import React from 'react'
 import Condiciones from '../condiciones/Condiciones'
-import { Titulo } from '../tyc.styles'
-import { Container, Subtitulo } from './terminos.styles'
+import { Container, Subtitulo, Titulo } from './terminos.styles'
 
 const Terminos = () => {
     return (

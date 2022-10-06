@@ -3,24 +3,15 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 953px;
-    height: 567px;
+    width: 1200px;
 `
 
-export const TerminosContainer = styled.div`
+export const ImagenContainer = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-`
-
-export const Titulo = styled.span`
-    font-family: Poppins;
-    font-size: 36px;
-    line-height: 54px;
-    text-align: left;
-    color:#1C2833;
+    justify-content: flex-end;
+    align-content: flex-start;
+    width: 70px;
+    height: 800px;
 `
