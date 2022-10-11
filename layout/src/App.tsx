@@ -15,10 +15,13 @@ import Shop from "./components/shop/Shop";
 import Beneficios from "./components/beneficios/Beneficios";
 import Faq from "./components/faq/Faq";
 import TyC from "./components/tyc/TyC";
+import SimpleFooter from "./components/footer/SimpleFooter";
+import HeadeCompleto from './components/header/Header-completo';
 
 const App = () => (
     <>
         <Header />
+        {/* <HeadeCompleto /> */}
         <div className="container">
             <div className="contenedor">
                 {/* <Home /> */}
@@ -29,9 +32,10 @@ const App = () => (
                 {/* <Faq /> */}
                 <TyC />
             </div>
-            <Dots />
+            {/* <Dots /> */}
         </div>
         <Footer />
+        {/* <SimpleFooter /> */}
     </>
 );
 root.render(<App />);

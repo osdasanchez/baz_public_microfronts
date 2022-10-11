@@ -8,6 +8,7 @@ export const Container = styled.div`
     width: 712px;
     height: 750px;
     overflow-y: hidden;
+    overflow-x: hidden;
 `
 
 export const Titulo = styled.span`
