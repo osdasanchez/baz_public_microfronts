@@ -17,6 +17,7 @@ import Faq from "./components/faq/Faq";
 import TyC from "./components/tyc/TyC";
 import SimpleFooter from "./components/footer/SimpleFooter";
 import HeadeCompleto from './components/header/Header-completo';
+import Page404 from "./components/404/404";
 
 const App = () => (
     <>
@@ -27,10 +28,11 @@ const App = () => (
                 {/* <Home /> */}
                 {/* <Video /> */}
                 {/* <Money /> */}
-                {/* <Shop /> */}
+                <Shop />
                 {/* <Beneficios /> */}
                 {/* <Faq /> */}
-                <TyC />
+                {/* <TyC /> */}
+                {/* <Page404 /> */}
             </div>
             {/* <Dots /> */}
         </div>

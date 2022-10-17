@@ -3,16 +3,16 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 1024px;
+    height: auto;
 `
 
 export const TituloVerde = styled.span`
     width: 513px;
     height: 54px;
-    left: 383px;
-    top: 88px;
+    margin-bottom: 24px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -41,5 +41,23 @@ export const TituloNegro = styled.span`
 `
 
 export const Descripcion = styled.span`
-    
+    width: 718px;
+    height: 54px;
+    left: 383px;
+    top: 88px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1C2833;
+`
+
+export const ChipContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 890px;
+    height: auto;
+    margin-top: 24px;
 `
