@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 // @ts-ignore
 import qr_img from '../../../assets/images/qr_picture.svg?url'
 import { QrBox, QrContainer, TextoQr } from './qr.styles'

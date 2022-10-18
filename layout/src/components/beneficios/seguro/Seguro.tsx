@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 // @ts-ignore
 import Imagen1 from '../../../assets/images/beneficios/picture_2.svg'
 // @ts-ignore

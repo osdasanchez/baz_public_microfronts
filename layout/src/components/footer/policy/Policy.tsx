@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { TextPolicy, UlBox } from './Policy.styles';
 
 const Policy = () => {

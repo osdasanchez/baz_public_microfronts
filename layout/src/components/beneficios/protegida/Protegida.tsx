@@ -1,4 +1,4 @@
-import React from 'react'
+import * as  React from 'react'
 import { Container, ImgContainer, Texto } from './protegida.styles'
 // @ts-ignore
 import Imagen1 from '../../../assets/images/beneficios/picture_5.svg'

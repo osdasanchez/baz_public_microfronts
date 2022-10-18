@@ -1,4 +1,4 @@
-import React from 'react'
+import * as  React from 'react'
 import { Container, LI, OL, Parrafo, Titulo, UL } from './condiciones.styles';
 
 const Condiciones = () => {

@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { ContainerGreen, Texto } from './imagen.styles';
 // @ts-ignore
 import Mask from '../../../assets/images/money/Mask_group.svg'
@@ -6,7 +6,8 @@ import Mask from '../../../assets/images/money/Mask_group.svg'
 const Imagen = () => {
     return (
         <ContainerGreen>
-            <Mask />
+            {/*<Mask />*/}
+            <img src={Mask}/>
             <Texto>Usar baz es súper fácil</Texto>
         </ContainerGreen>
     )

@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import {
   AccordionContainer,
   Contenedor,
@@ -9,7 +9,7 @@ import {
 import { Accordion, AccordionItem } from "react-light-accordion";
 import "react-light-accordion/demo/css/index.css";
 
-const Faq = () => {
+ const Faq = () => {
   return (
     <Contenedor>
       <Titulo>Preguntas frecuentes</Titulo>
@@ -54,3 +54,4 @@ const Faq = () => {
 };
 
 export default Faq;
+

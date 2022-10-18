@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 // @ts-ignore
 import icon_phone from "../../../assets/images/icono-telefono.svg?url";
 // @ts-ignore

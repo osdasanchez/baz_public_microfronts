@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { BoxContent, BoxLogo, BoxSocial, FooterContainer, FooterWrapper, LogoContainer, BoxQr, BoxCopy, Aviso, Aclaracion } from './simpleFooter.styles';
 // @ts-ignore
 import BazLogo from "../../assets/images/logo-desktop.svg";

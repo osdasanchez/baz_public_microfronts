@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.nav`
+  background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
   width: 100%;
   min-height: 40px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
-  box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  //box-shadow: 0 2px 18px 0 rgba(0, 0, 0, 0.1);
 
   @media only screen and (min-width: 361px) {
     min-height: 48px;

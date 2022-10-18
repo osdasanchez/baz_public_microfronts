@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { DataContainer, Titulo, Subtitulo, ContenedorBtn } from './data.styles';
 import Botones from '../botones/Botones';
 

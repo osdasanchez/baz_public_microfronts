@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { QrContainer, Store, StoresContainer, ItemStore } from './store.styles';
 // @ts-ignore
 import Qr_image from "../../../assets/images/qr_picture.svg";

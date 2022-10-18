@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import Condiciones from '../condiciones/Condiciones'
 import { Container, Subtitulo, Titulo } from './terminos.styles'
 

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 
 export const Container = styled.div`
     display: flex;
@@ -25,12 +25,30 @@ export const VideoContainer = styled.div`
     width: 100%;
 `
 
+const moveInLeft = keyframes`
+  0% {
+    opacity: 1;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+`;
 export const FondoContainer = styled.div`
     width: 902px;
     height: 388px;
     background: #0D9CCA;
     border-radius: 388px;
-`
+
+    &:hover {
+      animation:1s ease-out 0s 1 ${moveInLeft};
+ 
+  }
+
+
+  //animation-duration: 5s;
+`;
 
 export const VideoImg = styled.div`
     display: flex;
@@ -43,4 +61,5 @@ export const VideoImg = styled.div`
         width: 825px;
         height: 464px;
     }
-`
+`;
+

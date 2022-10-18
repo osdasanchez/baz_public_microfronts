@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { HeaderContainer, HeaderWraper, BoxContent, LogContainer, Texto, Ingresar, IngresarText, BoxStores } from './heaader-completo.styles';
 // @ts-ignore
 import BazLogo from '../../assets/baz.svg';

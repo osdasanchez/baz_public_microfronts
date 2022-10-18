@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 // @ts-ignore
 import icon_email from "../../../assets/images/icono-correo.svg?url";
 import { ContactContainer, ContactBox } from './telefono.styles';

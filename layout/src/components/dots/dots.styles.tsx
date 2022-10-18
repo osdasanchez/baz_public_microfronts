@@ -10,7 +10,7 @@ export const Container = styled.div`
     height: 112px;
     margin-left: 1400px;
     margin-bottom: 60px;
-    position: absolute;
+   // position: absolute;
 `
 
 export const Dot = styled.span`

@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { Container, ContainerDown, ContainerUp, TituloNegro, TituloVerde } from './beneficios.styles';
 import Confiable from './confiable/Confiable';
 import Facil from './facil/Facil';

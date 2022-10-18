@@ -1,13 +1,13 @@
 import React from 'react'
 import { Container, Imagenes } from './fondo.styles';
 // @ts-ignore
-import fondo1 from '../../../../assets/images/shop/Diversion/sparkles.svg?url'
+import fondo1 from '../../../../assets/images/shop/Diversion/sparkles.svg'
 // @ts-ignore
-import carita from '../../../../assets/images/shop/Diversion/emoticon.svg?url'
+import carita from '../../../../assets/images/shop/Diversion/emoticon.svg'
 // @ts-ignore
-import corazon from '../../../../assets/images/shop/Diversion/heart.svg?url'
+import corazon from '../../../../assets/images/shop/Diversion/heart.svg'
 // @ts-ignore
-import chico from '../../../../assets/images/shop/Diversion/picture_@2x.svg?url'
+import chico from '../../../../assets/images/shop/Diversion/picture_@2x.png'
 
 const Fondo = () => {
     return (

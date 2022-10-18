@@ -41,16 +41,15 @@ module.exports = (_, argv) => {
                     },
                 },
                 {
-                    test: /\.svg$/i,
+                    test: /\.(png|svg|jpg|jpeg|gif)$/i,
                     type: 'asset',
-                    resourceQuery: /url/, // *.svg?url
+                    parser: {
+                        dataUrlCondition: {
+                            maxSize: 4 * 1024 // 4kb
+                        }
+                    }
                 },
-                {
-                    test: /\.svg$/i,
-                    issuer: /\.[jt]sx?$/,
-                    resourceQuery: {not: [/url/]}, // exclude react component if *.svg?url
-                    use: ['@svgr/webpack'],
-                },
+
             ],
         },
 

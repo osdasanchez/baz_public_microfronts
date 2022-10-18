@@ -1,27 +1,27 @@
-import React from 'react'
+import * as React from 'react'
 import { Container, Icon, Texto } from './botones.styles'
 // @ts-ignore
-import money from '../../../assets/images/money/money_icon.svg?url'
+import money from '../../../assets/images/money/money_icon.svg'
 // @ts-ignore
-import around from '../../../assets/images/money/around_icon.svg?url'
+import around from '../../../assets/images/money/around_icon.svg'
 // @ts-ignore
-import chat from '../../../assets/images/money/msj_icon.svg?url'
+import chat from '../../../assets/images/money/msj_icon.svg'
 // @ts-ignore
-import pagoQr from '../../../assets/images/money/qr_icon.svg?url'
+import pagoQr from '../../../assets/images/money/qr_icon.svg'
 // @ts-ignore
-import service from '../../../assets/images/money/pay_service_icon.svg?url'
+import service from '../../../assets/images/money/pay_service_icon.svg'
 // @ts-ignore
-import atm from '../../../assets/images/money/atm_icon.svg?url'
+import atm from '../../../assets/images/money/atm_icon.svg'
 // @ts-ignore
-import ventanilla from '../../../assets/images/money/ventanilla_icon.svg?url'
+import ventanilla from '../../../assets/images/money/ventanilla_icon.svg'
 // @ts-ignore
-import cobroQr from '../../../assets/images/money/mobile_icon.svg?url'
+import cobroQr from '../../../assets/images/money/mobile_icon.svg'
 // @ts-ignore
-import giftcard from '../../../assets/images/money/gift_icon.svg?url'
+import giftcard from '../../../assets/images/money/gift_icon.svg'
 // @ts-ignore
-import wifi from '../../../assets/images/money/wifi_icon.svg?url'
+import wifi from '../../../assets/images/money/wifi_icon.svg'
 // @ts-ignore
-import ta from '../../../assets/images/money/ta_icon.svg?url'
+import ta from '../../../assets/images/money/ta_icon.svg'
 
 const Botones = () => {
 
