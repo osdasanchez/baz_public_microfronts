@@ -29,23 +29,32 @@ const Canal = () => {
         <Container>
             <TituloNegro>Canal <span className='verde'> baz</span></TituloNegro>
             <Subtitulo>¡Conoce todo lo que puedes hacer con tu súperapp!</Subtitulo>
-            <VideoContainer>
+            {/* <VideoContainer>
                 <Swiper
-                    effect={"coverflow"}
+                    effect={"creative"}
                     loop={true}
                     grabCursor={true}
                     centeredSlides={true}
-                    slidesPerView={3}
-                    coverflowEffect={{
-                        rotate: 50,
-                        stretch: 10,
-                        depth: 100,
-                        modifier: 1,
-                        slideShadows: true,
-                    }}
+                    slidesPerView={"auto"}
+                    // coverflowEffect={{
+                    //     rotate: 60,
+                    //     stretch: 10,
+                    //     depth: 50,
+                    //     modifier: 1,
+                    //     slideShadows: true,
+                    // }}
+                    creativeEffect={{
+                        prev: {
+                          shadow: true,
+                          translate: [0, 0, -400],
+                        },
+                        next: {
+                          translate: ["100%", 0, 0],
+                        },
+                      }}
                     pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
-                    className="swiper-principal"
+                    modules={[EffectCoverflow]}
+                    className="mySwiper"
                 >
                     <SwiperSlide>
                         <img src={canalBaz} />
@@ -57,10 +66,9 @@ const Canal = () => {
                     <SwiperSlide>
                         <img src={videoLat2} />
                     </SwiperSlide>
-
                 </Swiper>
 
-            </VideoContainer>
+            </VideoContainer> */}
         </Container>
     )
 }
