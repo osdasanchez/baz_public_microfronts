@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body, html {
     height: 100%;
+    position: relative;
     box-sizing: border-box;
   }
 
@@ -36,9 +37,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    --swiper-theme-color: #01AD35;
+   // --swiper-theme-color: #01AD35;
     //overflow: auto;
-    --swiper-navigation-color: #01AD35;
+   // --swiper-navigation-color: #01AD35;
   }
 
 `;

@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, Mousewheel } from 'swiper';
+import { Navigation, Pagination, Scrollbar, Mousewheel, Parallax } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -22,11 +22,20 @@ const Slider = () => {
     return (
         <Swiper
             // install Swiper modules
+            style={{
+                "--swiper-navigation-color": "#01AD35",
+                "--swiper-pagination-color": "#01AD35",
+            }}
             direction={"vertical"}
             slidesPerView={1}
             spaceBetween={10}
+            speed={600}
+            parallax={true}
+            hashNavigation={{
+                watchState: true,
+            }}
             //mousewheel={true}
-            modules={[Navigation, Pagination, Mousewheel, Scrollbar]}
+            modules={[Navigation, Pagination, Mousewheel, Scrollbar, Parallax]}
             //spaceBetween={50}
            // slidesPerView={3}
            // navigation
@@ -35,22 +44,23 @@ const Slider = () => {
             onScroll={(swiper, event) => console.log(swiper, event)}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
+            className="mySwiper"
         >
-            <SwiperSlide>  <HomeSection/></SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide data-hash="slide1">  <HomeSection/></SwiperSlide>
+            <SwiperSlide data-hash="slide2">
                 {({ isActive }) => (
                    <>{isActive ? <Video /> : null}</>
                 )}
             </SwiperSlide>
-            <SwiperSlide><Money /></SwiperSlide>
-            <SwiperSlide><Shop /></SwiperSlide>
-            <SwiperSlide><Beneficios /></SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide data-hash="slide3"><Money /></SwiperSlide>
+            <SwiperSlide data-hash="slide4"><Shop /></SwiperSlide>
+            <SwiperSlide data-hash="slide5"><Beneficios /></SwiperSlide>
+            <SwiperSlide data-hash="slide6">
                 {({ isActive }) => (
                     <div>Current slide is {isActive ? 'active' : 'not active'}</div>
                 )}
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide data-hash="slide7">
                 <div>
                     <Faq />
                     <Footer />
