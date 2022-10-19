@@ -16,7 +16,7 @@ const SimpleFooter = () => {
         <BoxContent>
           <BoxLogo>
             <LogoContainer>
-              <BazLogo className='logo' />
+              <img src={BazLogo} className='logo'/>
             </LogoContainer>
           </BoxLogo>
 

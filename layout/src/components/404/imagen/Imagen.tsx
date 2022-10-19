@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { Container } from './imagen.styles';
 // @ts-ignore
 import fondo from '../../../assets/images/404/sparkles.svg?url'

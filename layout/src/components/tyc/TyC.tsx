@@ -9,7 +9,7 @@ const TyC = () => {
     <Container>
       <Terminos />
       <ImagenContainer>
-        <ImgVerde className='img' />
+          <img src={ImgVerde} className='img'/>
       </ImagenContainer>
     </Container>
   )

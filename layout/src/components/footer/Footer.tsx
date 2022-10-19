@@ -26,8 +26,8 @@ const Footer = () => {
                 <BoxContent>
                     <BoxLogo>
                         <LogoContainer>
-                            <BazLogo className='logo' />
-                            <img src={BazLogo}/>
+                            {/*<BazLogo className='logo' />*/}
+                            <img src={BazLogo} className='logo'/>
                         </LogoContainer>
                     </BoxLogo>
                     <BoxSocial>

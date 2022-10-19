@@ -9,9 +9,9 @@ import {
     ContentContainerListItem
 } from './texto.styles';
 // @ts-ignore
-import GoogleIcon from '../../../assets/images/google-play.svg'
+import GoogleIcon from '../../../assets/images/google-play.png'
 // @ts-ignore
-import AppleIcon from '../../../assets/images/group-2-copy-2.svg'
+import AppleIcon from '../../../assets/images/apple_store.png'
 
 
 const Texto = () => {

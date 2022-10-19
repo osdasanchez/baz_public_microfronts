@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { Container, Texto404 } from './404.styles';
 import Boton from './boton/Boton';
 import Imagen from './imagen/Imagen';

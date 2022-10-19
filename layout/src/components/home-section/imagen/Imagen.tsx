@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Container } from './imagen.styles';
 // @ts-ignore
-import ChicaImagen from '../../../assets/images/home/composition.svg'
+import ChicaImagen from '../../../assets/images/home/composition.png'
 
 const Imagen = () => {
     
