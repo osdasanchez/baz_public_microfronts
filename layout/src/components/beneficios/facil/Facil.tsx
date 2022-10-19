@@ -8,11 +8,9 @@ import { Container, Texto } from './facil.styles'
 const Facil = () => {
     return (
         <Container>
-            {/*<Globe1 className="globe" />*/}
-            {/*<Imagen1 />*/}
             <img src={Globe1} className="globe"/>
             <img src={Imagen1} />
-            <Texto>Compra en cualquier lado súper fácil</Texto>
+            <Texto>Ya puedes comprar todo en un mismo lugar y al mismo tiempo. ¡Es súper fácil!.</Texto>
         </Container>
     )
 }

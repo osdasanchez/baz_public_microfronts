@@ -9,12 +9,10 @@ const Protegida = () => {
     return (
         <Container>
             <ImgContainer>
-                {/*<Globe1 className="globe" />*/}
-                {/*<Imagen1 className="imagen" />*/}
                 <img src={Globe1} className="globe" />
                 <img src={Imagen1} className="imagen" />
             </ImgContainer>
-            <Texto>Tus datos están siempre protegidos</Texto>
+            <Texto>Ya puedes comprar todo en un mismo lugar y al mismo tiempo. ¡Es súper fácil!.</Texto>
         </Container>
     )
 }

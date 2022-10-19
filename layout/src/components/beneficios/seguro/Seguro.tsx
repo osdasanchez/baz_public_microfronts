@@ -8,11 +8,9 @@ import { Container, Texto } from './seguro.styles'
 const Seguro = () => {
     return (
         <Container>
-            {/*<Globe1 className="globe" />*/}
-            {/*<Imagen1 className="imagen" />*/}
             <img    src={Globe1} className="globe"/>
             <img    src={Imagen1}  className="imagen"/>
-            <Texto>Seguridad para ti y tu dinero</Texto>
+            <Texto>10 de 10, tiene muchos beneficios, realizo mis pagos de manera segura</Texto>
         </Container>
     )
 }

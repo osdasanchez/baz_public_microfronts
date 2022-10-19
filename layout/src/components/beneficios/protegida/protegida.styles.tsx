@@ -5,9 +5,9 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 275px;
-    height: 250px;
-    margin-right: 150px;
+    width: 294px;
+    height: 253px;
+    margin-right: 97px;
 `
 
 export const ImgContainer = styled.div`
@@ -17,8 +17,8 @@ export const ImgContainer = styled.div`
 
     .globe{
         width: 50%;
-        margin-top: 16px;
-        margin-right: 25px;
+        margin-top: -63px;
+        margin-right: 28px;
     }
 
     .imagen{
@@ -29,8 +29,9 @@ export const ImgContainer = styled.div`
 
 export const Texto = styled.span`
     font-family: Poppins;
-    font-size: 20px;
-    width: 209px;
-    height: 60px;
+    font-size: 18px;
+    width: 300px;
+    height: 90px;
+    margin-left: 65px;
     text-align: center;
 `

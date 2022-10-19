@@ -6,8 +6,8 @@ export const Container = styled.div`
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 275px;
-    height: 229px;
+    width: 300px;
+    height: 270px;
 
     .globe{
         margin-left: 80px;
@@ -20,8 +20,8 @@ export const Container = styled.div`
 
 export const Texto = styled.span`
     font-family: Poppins;
-    font-size: 20px;
-    width: 209px;
-    height: 60px;
+    font-size: 18px;
+    width: 330px;
+    height: 85px;
     text-align: center;
 `

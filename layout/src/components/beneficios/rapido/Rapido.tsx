@@ -9,12 +9,10 @@ const Rapido = () => {
     return (
         <Container>
             <ImgContainer>
-                {/*<Imagen1 className="imagen" />*/}
-                {/*<Globe1 className="globe" />*/}
                 <img src={Imagen1} className="imagen" />
                 <img src={Globe1} className="globe" />
             </ImgContainer>
-            <Texto>Recibe tu dinero súper rápido</Texto>
+            <Texto>Enviar y recibir dinero es muy fácil y rápido.</Texto>
         </Container>
     )
 }

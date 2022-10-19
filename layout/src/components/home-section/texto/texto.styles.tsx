@@ -169,11 +169,13 @@ export const ContentContainerList = styled.div`
     font-size: 64px;
     font-weight: 700;
     //line-height: 76.8px;
-    border: 1px crimson solid;
     //display: block;
     opacity: 0;
     overflow: hidden;
     position: absolute;
+    width: 550px;
+    margin-top: -60px;
+    margin-left: -5px;
   }
   
 

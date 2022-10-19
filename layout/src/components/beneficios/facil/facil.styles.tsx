@@ -17,8 +17,8 @@ export const Container = styled.div`
 
 export const Texto = styled.span`
     font-family: Poppins;
-    font-size: 20px;
-    width: 225px;
-    height: 60px;
+    font-size: 18px;
+    width: 300px;
+    height: 90px;
     text-align: center;
 `

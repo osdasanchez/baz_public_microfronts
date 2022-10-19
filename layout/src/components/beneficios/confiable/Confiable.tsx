@@ -9,8 +9,6 @@ const Confiable = () => {
     return (
         <Container>
             <ImgContainer>
-                {/*<Globe1 className="globe" />*/}
-                {/*<Imagen1 className="imagen" />*/}
                 <img src={Globe1} className="globe" />
                 <img src={Imagen1} className="imagen"/>
             </ImgContainer>

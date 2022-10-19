@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container, ContainerDown, ContainerUp, TituloNegro, TituloVerde } from './beneficios.styles';
+import { Container, ContainerDown, ContainerUp, TituloNegro } from './beneficios.styles';
 import Confiable from './confiable/Confiable';
 import Facil from './facil/Facil';
 import Protegida from './protegida/Protegida';
@@ -9,9 +9,7 @@ import Seguro from './seguro/Seguro';
 const Beneficios = () => {
     return (
         <Container>
-            <TituloVerde>
-                ¡baz, <TituloNegro> es lo que necesitas!</TituloNegro>
-            </TituloVerde>
+            <TituloNegro>Y no solo lo decimos nosotros... lo dicen todos los que ya son parte de la comunidad baz.</TituloNegro>
             <ContainerUp>
                 <Rapido />
                 <Seguro />

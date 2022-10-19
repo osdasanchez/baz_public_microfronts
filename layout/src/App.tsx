@@ -22,6 +22,7 @@ import {defaultTheme} from "./theme";
 import  {GlobalStyle}  from "./global.styles";
 import Terms from "./pages/terms/Terms";
 import Page404 from "./components/404/404";
+import Canal from './components/canal/Canal';
 
 
 const App = () => (
@@ -34,6 +35,7 @@ const App = () => (
                 <Route path="/video" element={<Video />} />
                 <Route path="/money" element={<Money />} />
                 <Route path="/shop" element={<Shop />} />
+                {/* <Route path="/canal" element={<Canal />} /> */}
                 <Route path="/beneficios" element={<Beneficios />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/tyc" element={<Terms />} />

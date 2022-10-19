@@ -15,21 +15,21 @@ export const ImgContainer = styled.div`
     justify-content: center;
 
     .imagen{
-        width: 66%;
+        width: 73%;
         margin-left: -8px;
     }
 
     .globe{
         width: 35%;
         margin-left: -7px;
-        margin-top: 48px;
+        margin-top: -60px;
     }
 `
 
 export const Texto = styled.span`
     font-family: Poppins;
-    font-size: 20px;
-    width: 209px;
+    font-size: 19px;
+    width: 250px;
     height: 60px;
     text-align: center;
     margin-top: -27px;

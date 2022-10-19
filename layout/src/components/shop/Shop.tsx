@@ -14,12 +14,12 @@ const Shop = () => {
                 ¡Si tienes <span className='negrita'>baz</span>,
                 <TituloNegro> lo tienes todo!</TituloNegro>
             </TituloVerde>
-            <Descripcion>Solicita créditos, recarga saldo, paga servicios, escucha música, ve tv en vivo, renta películas y crea tu propio negocio.</Descripcion>
+            <Descripcion>Puedes solicitar créditos, recargar tu saldo, escuchar música, rentar películas, crear tu propio negocio y ¡muchos más!</Descripcion>
             <ChipContainer>
                 <Chips />
                 {/* <Compras /> */}
-                <Diversion />
-                {/* <Negocio /> */}
+                {/* <Diversion /> */}
+                <Negocio />
             </ChipContainer>
         </Container>
     )

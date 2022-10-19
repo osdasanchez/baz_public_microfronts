@@ -7,7 +7,7 @@ import carrito from '../../../../assets/images/shop/Negocio/carrito.svg?url'
 // @ts-ignore
 import cajas from '../../../../assets/images/shop/Negocio/cajas.svg?url'
 // @ts-ignore
-import chico from '../../../../assets/images/shop/Negocio/foto.svg?url'
+import chico from '../../../../assets/images/shop/Negocio/foto.png'
 
 const Fondo = () => {
     return (

@@ -6,7 +6,7 @@ export const Container = styled.div`
     justify-content: flex-start;
     align-items: center;
     width: 1024px;
-    height: auto;
+    height: 860px;
 `
 
 export const TituloVerde = styled.span`
@@ -46,8 +46,8 @@ export const Descripcion = styled.span`
     left: 383px;
     top: 88px;
     font-family: 'Poppins';
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: center;
     color: #1C2833;
 `
@@ -58,6 +58,5 @@ export const ChipContainer = styled.div`
     justify-content: flex-start;
     align-items: center;
     width: 890px;
-    height: auto;
-    margin-top: 24px;
+    margin-top: 50px;
 `

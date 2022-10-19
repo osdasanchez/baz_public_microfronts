@@ -16,8 +16,8 @@ export const ImgContainer = styled.div`
 
     .globe{
         width: 43%;
-        margin-top: 56px;
-        margin-right: 10px;
+        margin-top: -43px;
+        margin-right: 21px;
     }
 
     .imagen{
@@ -28,9 +28,10 @@ export const ImgContainer = styled.div`
 
 export const Texto = styled.span`
     font-family: Poppins;
-    font-size: 20px;
-    width: 209px;
+    font-size: 18px;
+    width: 265px;
     height: 60px;
     text-align: center;
     margin-top: -27px;
+    margin-left: 23px;
 `

@@ -36,4 +36,5 @@ export const Texto = styled.span`
     text-align: center;
     color: #222E41;
     margin-top: 8px;
+    width: 100px;
 `
