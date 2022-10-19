@@ -28,11 +28,24 @@ export const VideoContainer = styled.div`
 const moveInLeft = keyframes`
   0% {
     opacity: 1;
-    transform: translateX(-100px);
+    transform: translate(100px, 100px);
+   
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+`;
+
+const moveInRight = keyframes`
+  0% {
+    opacity: 1;
+    transform: translate(100px, -100px);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate(0, 0);
   }
 `;
 export const FondoContainer = styled.div`
@@ -40,11 +53,16 @@ export const FondoContainer = styled.div`
     height: 388px;
     background: #0D9CCA;
     border-radius: 388px;
+    animation: ${moveInLeft} 500ms linear 0s 1 ;
 
-    &:hover {
-      animation:1s ease-out 0s 1 ${moveInLeft};
+  //animation-name: example;
+  //animation-duration: 5s;
+  //animation-timing-function: linear;
+  //animation-delay: 2s;
+  //animation-iteration-count: infinite;
+  //animation-direction: alternate;
  
-  }
+  
 
 
   //animation-duration: 5s;
@@ -56,6 +74,7 @@ export const VideoImg = styled.div`
     align-content: center;
     align-items: center;
     margin-top: -40px;
+  animation:  ${moveInRight} 500ms linear 0s 1;
 
     .img{
         width: 825px;

@@ -16,7 +16,11 @@ const Video = () => {
                 <FondoContainer className={"fondo"}>
                     <VideoImg>
                         {/*<VideoImga className='img' />*/}
-                        <img src={VideoImga}/>
+                        {/*<img src={VideoImga}/>*/}
+                        <video controls  autoPlay={true} width={'650px'} height={'400px'}>
+                            <source src="https://baz-public-web-assets.s3.amazonaws.com/videos/tutorial/main/WIDE+-+10+Todo+lo+que+puedes+hacer+con+baz.mp4" type="video/mp4" />
+
+                        </video>
                     </VideoImg>
                 </FondoContainer>
             </VideoContainer>

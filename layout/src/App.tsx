@@ -6,7 +6,7 @@ import { ThemeProvider } from 'styled-components';
 const container = document.getElementById('app');
 const root = createRoot(container!); // createRoot(container!) if you use TypeScript
 
-import "./index.css";
+//import "./index.css";
 import Header from "./components/header/Header";
 import Footer from './components/footer/Footer';
 import Dots from "./components/dots/Dots";
@@ -19,6 +19,7 @@ import Faq from "./components/faq/Faq";
 import TyC from "./components/tyc/TyC";
 
 import {defaultTheme} from "./theme";
+import  {GlobalStyle}  from "./global.styles";
 import Terms from "./pages/terms/Terms";
 import Page404 from "./components/404/404";
 
@@ -26,6 +27,7 @@ import Page404 from "./components/404/404";
 const App = () => (
     <>
         <ThemeProvider theme={defaultTheme}>
+            <GlobalStyle />
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />

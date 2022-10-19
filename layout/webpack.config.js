@@ -31,7 +31,7 @@ module.exports = (_, argv) => {
                 },
                 {
                     test: /\.(css|s[ac]ss)$/i,
-                    use: ["style-loader", "css-loader", "postcss-loader"],
+                    use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"],
                 },
                 {
                     test: /\.(ts|tsx|js|jsx)$/,
@@ -41,7 +41,7 @@ module.exports = (_, argv) => {
                     },
                 },
                 {
-                    test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                    test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
                     type: 'asset',
                     parser: {
                         dataUrlCondition: {
@@ -76,7 +76,10 @@ module.exports = (_, argv) => {
                 },
             }),
             new HtmlWebPackPlugin({
-                template: "./src/index.html",
+                template: "./public/index.html",
+                filename: './index.html',
+                favicon: './public/favicon.ico',
+                manifest: "./public/manifest.json",
             }),
         ],
     });
